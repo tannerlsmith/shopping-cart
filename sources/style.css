@@ -212,3 +212,24 @@ html, body {
 .btn-purchase {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 375px) {
+    .header-offer {
+        width: 375px;
+    }
+
+    .main-footer {
+        min-width: 100%;
+    }
+
+    .hero {
+        max-height: 300px;
+        max-width: 70%;
+        display: block;
+        margin: auto;
+        margin-right: auto;
+        align-items: center;
+        background-image: url(images/m_narrow-london-street_4460x4460.jpg);
+    }
+
+}
