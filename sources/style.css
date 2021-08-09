@@ -8,6 +8,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    background-color: #f4f3f0;
 }
 
 .brand-name {
@@ -16,12 +17,22 @@ html, body {
     font-size: 4em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
-    color: gainsboro;
+    color: white;
+}
+
+.text-box {
+    background-color: rgba(100, 148, 62, 0.5);
+}
+
+.header-offer{
+    font-size: 16px;
+    color:white;
 }
 
 .main-header {
-    background-color: #5E8E3E;
-    padding: 30px;
+    background-color: black;
+    padding: 0.5px;
+    text-align: center;
 }
 
 .container {
@@ -125,7 +136,7 @@ html, body {
 
 .btn-danger {
     color: black;
-    background-color: silver;
+    background-color: #CC4C4C;
     border: none;
     border-radius: .3em;
 }
@@ -178,5 +189,26 @@ html, body {
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
-    font-size: 1.75em;
+    font-size: 1.5em;
+    background-color: teal;
+    color: white;
+}
+
+.main-footer {
+    background-color: #C89d7c;
+    color: white;
+    padding: 1px;
+}
+
+.shop-item-button {
+    background-color: teal;
+    color: white;
+}
+
+.shop-item-button:hover {
+    cursor: pointer;
+}
+
+.btn-purchase {
+    cursor: pointer;
 }
